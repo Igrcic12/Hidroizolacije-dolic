@@ -1,0 +1,16 @@
+
+
+header li{
+   text-decoration: none;
+   display: inline-block;
+   
+}
+
+header a{
+   text-decoration: none;
+   flex: 1;
+}
+
+header{
+   display: flex;
+}
