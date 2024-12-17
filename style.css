@@ -1,16 +1,161 @@
+* {
+   box-sizing: border-box;
+} 
+body{
+   margin: 0;
+   padding: 0;
+   background-color:#477A91;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+/* nav bar header*/
+
+
+
+
+
 
 
 header li{
    text-decoration: none;
-   display: inline-block;
+   display:inline-flex;
+   padding-right: 25px;
+   font-size: 1.5rem;
+}
+
+.navbut{
+   display: inline-flex;
    
+   
+
 }
 
 header a{
    text-decoration: none;
-   flex: 1;
+   color: white;
 }
 
-header{
+
+
+/*main*/
+
+
+#Pozadina{
+   background-image: url("./464866331_122120756996553036_354454884949670238_n.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   opacity: 0.7;
+   height: 50rem;
+   width: 100%;
+   transition: all 5s ease-in 1s;
+}
+
+.poztekst{
    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   top: 50%;
+   opacity: 1;
+   color: white;
+   font-size: 1.5rem;
+   
+
+}
+
+  
+
+
+.pro{
+   height: 30rem;
+   width: 100%;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr ;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+   
+
+}
+
+
+.kontakt{
+   text-decoration: underline;
+   color: black;
+   font-weight: 700;
+   border: 1px solid lightblue;
+   border-radius: 5%;
+   background-color: white;
+   padding: 15px;
+   
+   
+}
+
+.kontakt:hover{
+   background-color: #8596A6 ;
+   color: white;
+}
+
+.Usluge{
+   background-color: #8FB0BD;
+}
+
+.boks{
+   
+   background-color: #477A91;
+   color: whitesmoke;
+   border-radius: 5%;
+   width: 14rem;
+   height:10rem;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+   margin-left: auto;
+   margin-right: auto
+
+   
+
+}
+
+.boks h2{
+   text-align: center;
+}
+
+
+.karta{
+   position: relative;
+   margin: 200px;
+   display: flex;
+   justify-content: space-evenly;
+   font-size: 18px;
+}
+
+/*footer*/
+
+.links{
+   font-size: 1.3rem;
+   display: flex;
+   justify-content: center;
+   margin-bottom: 1rem;
+
+}
+
+.links a{
+   color: white;
+}
+
+.links a:hover{
+   font-size: 1.5rem;
+}
+/* Mrtvi responsive dio*/
+
+@media screen and (max-width: 495px){ 
+   .pro{
+  
+      
+   
+   }
 }
