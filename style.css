@@ -23,6 +23,10 @@ header li{
    font-size: 1.5rem;
 }
 
+header li:hover{
+   text-decoration: underline;
+}
+
 .navbut{
    display: inline-flex;
    
